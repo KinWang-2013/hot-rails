@@ -1,2 +1,2 @@
-web: bin/rails server
+web: bin/rails server --binding=192.168.22.110 -p 3000
 css: bin/rails tailwindcss:watch
